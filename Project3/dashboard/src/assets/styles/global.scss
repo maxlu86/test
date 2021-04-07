@@ -1,0 +1,58 @@
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  align-items: center;
+  color: #1d2c3d;
+  padding: 0em;
+  margin: 0em;
+}
+
+a:visited {
+  color: #97a1ac;
+}
+
+.button,
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  height: 2em;
+  margin: 0.5em;
+  border-radius: 5px;
+  // background: linear-gradient(to right, #314755, #26a0da);
+  font-size: 1em;
+  // color: white;
+  border: none;
+  outline: none;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20em;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 2em;
+
+  p {
+    color: red;
+  }
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.6em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  font: 1em 'Avenir', Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
